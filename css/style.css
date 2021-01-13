@@ -1,0 +1,110 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+header {
+  padding: 20px;
+  background-color: #fff;
+}
+.logo-text {
+  display: inline;
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.logo-img {
+vertical-align: middle;
+margin-right: 10px;
+}
+body {
+  background-color: #ddd;
+  margin: auto;
+}
+main {
+  padding: 100px;
+  display: block;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border-radius: 40px;
+}
+/* bottoni  */
+.bottone {
+  padding: 10px;
+  background color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  color: #333;
+  display: inline-block;
+
+}
+ .bottone-pieno {
+  background-color: blue;
+  color: #fff;
+  display: inline-block;
+}
+/*/ bottoni  */
+/* css lista  */
+.tasks {
+  list-style: none;
+  padding: 30px;
+  font-weight: normal;
+  font-size: 20px;
+  margin:auto;
+
+}
+.cerchio {
+display: inline-block;
+width: 15px;
+height: 15px;
+margin right: 10px;
+border-radius: 50%;
+line height: 15px;
+font-size: 10px;
+text-align: center;
+}
+.verifica {
+  border: 1px solid #2cc6ab;
+  color: #2cc6ab;
+}
+ul {
+  list-style: none;
+  font-style: normal;
+}
+/*/ css lista  */
+/* colori tag  */
+.tag {
+  display: inline-block;
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 20px;
+  color: white;
+}
+.tag1 {
+  background-color: blue;
+}
+.tag2 {
+  background-color: purple;
+}
+.tag3 {
+  background-color: green;
+}
+.tag4 {
+  background-color: orange;
+}
+.tag5 {
+  background-color: pink;
+}
+.tag6 {
+  background-color: #8A2BE2;
+}
+/* colori tag  */
+
+.cross {
+  color: red;
+  border: 1px solid red;
+}
